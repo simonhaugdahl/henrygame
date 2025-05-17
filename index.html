@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phaser Game</title>
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.js"></script>
+  <script src="scenes/baseScene.js"></script>
+  <script src="scenes/Room1.js"></script>
+  <script src="scenes/Room2.js"></script>
+  <script src="scenes/blackhole.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div id="cutscene" style="
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999;">
+  
+  <h1 style="color: white; font-size: 24px;">Secret Cutscene</h1>
+  <iframe id="ytframe"
+          width="90%"
+          height="80%"
+          src=""
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen></iframe>
+</div>
+</body>
+</html>

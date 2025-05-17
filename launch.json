@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Python HTTP Server",
+        "type": "python",
+        "request": "launch",
+        "program": "http.server",
+        "args": [
+          "8000"
+        ],
+        "cwd": "${workspaceFolder}"
+      }
+    ]
+  }
